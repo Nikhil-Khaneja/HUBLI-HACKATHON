@@ -472,8 +472,8 @@ body{
 }
 
 .info-box{
-    padding: 5px 2px;
-    margin-top:75px;
+    padding: 5px 5px;
+    margin-top: 11rem;
     background-color:  #A0D405;    
 }
 
@@ -589,13 +589,75 @@ ul, li {
 
 /* HEADER SECTION CSS */
 .navbar{
-    height: 120px;
+    padding: 10px 0;
     transition: all 0.5s ease-in-out;
     border: none;
 }
 
 .wg-top-nav{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0,0,0,0.7);
+}
+
+.wg-nav-wrapper{
+    padding: 0 10px;
+}
+.navbar-brand{
+    color: #fff;
+    padding: 5px 15px;
+    
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#wg-menu{
+    float: right;
+}
+
+.navbar-nav>li>a{
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.navbar-nav>li>a:focus,
+.navbar-nav>li>a:hover{
+    background: none;
+    color: #34C6D3;
+}
+
+.navbar-toggle{
+    background-color: rgba(0,0,0,0.5);
+    border: solid 1px #fff;
+    border-radius: 0;
+}
+
+.navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.navbar-collapse{
+    max-height: none!important;
+}
+
+.navbar ul.navbar-nav>li.active>a{
+    color:#34C6D3;
+}
+
+.nav-logo-style{
+    height: 4rem;
+} 
+/* .navbar{
+    height: 7rem;
+    transition: all 0.5s ease-in-out;
+    border: none;
+}
+
+.wg-top-nav .container-fluid{
+    background-color: #fffff9;
 }
 
 .wg-nav-wrapper{
@@ -649,13 +711,11 @@ ul, li {
 .navbar ul.navbar-nav>li.active>a{
     color: #34C6D3;
 }
+*/
 
 
 /*NEW SECTION CSS*/
-.new-sec-content{
-    background-image: url(../images/);
-    height: 70px;
-}
+
 .pull-left{
     width: 170px;
 }
@@ -687,8 +747,8 @@ height: 250px;
 .new-sec-content{
    background-image: url(../images/autumn-mott-rodeheaver-39537-unsplash.jpg);
    height: 400px;
-   padding:100px;
-   margin :100px 0;
+   padding-top:10em;
+   margin-bottom :100px ;
 }
 
 
@@ -708,7 +768,7 @@ height: 250px;
     height:100%;
 }
 
-.owl-carousel .owl-item img {
+.cover-section .owl-carousel .owl-item img {
     width: 300px;
     height: 150px;
 }
@@ -726,4 +786,5 @@ height: 250px;
     padding: 100px 100px;
     text-align: center;
 }
+
 
